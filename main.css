@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.header__title{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 2.0em;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #222;
+    background-color: rgb(57, 206, 206);
+}
+.title{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #1A237E;
+}
+/* Typography
+********************************************************************* */
+h1 {
+	font-size: 5.0rem;
+  font-family:'Lobster';
+  color: #5613a3;
+
+}
+p {
+	margin-top: 0;
+  font-size: 2.0em;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family:'Amatic SC';
+	color: #222;
+}
+
