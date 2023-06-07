@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="events.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <link href="events.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Events</h1>
+<!--this is event 1-->
+    <img src="sakura.jpg" id="imgSakura" width="400px" alt="Sakura Picture" 
+    onmouseover="changeCursor();" onmouseout="imageEvent();">
+<!--this is event 2, this allows the person to type their name into a type box-->
+    <form name = "formTest" id="formTest" onsubmit="return validateInput();">
+    <label for="textName">Enter Your Name:</label>
+    <input type="text" id="textName" onfocus="this.value='';" onblur="showName();">
+<br> <!--this is a break in the text to seperate the text boxes-->
+<!--this is the third event, same code as the name text box-->
+    <label for="textName">Favorite Animal?:</label>
+    <input type="text" id="textName" onfocus="this.value='';" onblur="showName();">
+<!--this is a submit button if the text boxes would be sent to another site-->
+    <input type="submit" value="submit">
+    </form>
+
+    <br>
+    <p>
+        Here is a random button
+      <!--this is the fourth event-->
+
+    <input type="BUTTON" value="BUTTON">
+    </p>
+
+    <p>
+        <!--this is the fifth event-->
+        Heres a link!
+        <!--when you add "href" you will be able to impliment a link-->
+        <a href="https://getmimo.com">Click Me (I Work)</a>
+    </p>
+
+    <p>
+        <!--this is the final event-->
+        Last but not least a picture of a dog <3
+        <img src=https://mimo.app/i/dog.png width = "300" height = "300">
+    </p>
+</body>
+</html>
